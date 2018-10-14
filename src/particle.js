@@ -15,7 +15,7 @@ class Particle {
     this.x = this.rand(-35, W + 35)
     this.y = this.rand(-30, -35)
     this.d = this.rand(150) + 10 // density
-    this.r = this.rand(10, 30)
+    this.r = this.rand(5, 10)
     this.color = colors.color // get the next color
     this.tilt = this.randI(10)
     this.tiltAngleIncremental = (
