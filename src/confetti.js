@@ -77,8 +77,8 @@ class Confetti {
     this.canvas.style.top = 0
     this.canvas.style.width = '100vw'
     this.canvas.style.height = '100vh'
+    this.canvas.style.zindex = '1100'
     this.canvas.id = 'confetti-canvas'
-    this.canvas.zindex = '1100'
     document.querySelector('body').appendChild(this.canvas)
   }
 
